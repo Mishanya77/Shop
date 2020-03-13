@@ -1,0 +1,23 @@
+.sidebar {
+  width: 20%;
+  height: 100vh;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  /* position: fixed; */
+}
+.link {
+  text-decoration: nome;
+  cursor: pointer;
+  color: black;
+  font-size: 20px;
+}
+
+.activelink {
+  text-decoration: nome;
+  cursor: pointer;
+  color: red;
+  font-size: 20px;
+}
